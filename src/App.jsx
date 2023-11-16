@@ -7,10 +7,17 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 function App() {
   return (
     <div>
-      
-     <Navbar />
-     <ItemListContainer />
-     <ItemDetallesContainer itemId={2}/>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path= "/" element={<ItemListContainer />} />
+          <Route path= "item" element={<ItemDetallesContainer itemId={2}/>} />
+
+
+        </Routes>
+        
+        
+      </BrowserRouter>
     </div>
   );
 }
