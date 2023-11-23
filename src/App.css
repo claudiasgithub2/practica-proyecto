@@ -1,11 +1,11 @@
-/* .navbar {
+.navbar {
   padding: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--clr-main);
+  background-color: #10316b;
   border-bottom: 3px solid black;
-} */
+} 
 /* 
 #itemdetalle {
     position: static;
