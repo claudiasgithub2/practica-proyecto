@@ -17,7 +17,7 @@ const Navbar = () => {
 
             <li className='nav-item'><Link className='nav-link text-decoration-none text-white' to='/nosotros'>Nosotros</Link></li>
 
-            {/* <li><Link className='nav-link text-decoration-none text-white' to='/contacto'>Contacto</Link></li> */}
+            <li><Link className='nav-link text-decoration-none text-white' to='/registro'>Inicia Sesión</Link></li>
         </ul>
         </div>
 

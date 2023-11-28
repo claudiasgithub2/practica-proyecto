@@ -5,6 +5,7 @@ import ItemDetallesContainer from "./components/ItemDetallesContainer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Nosotros from "./components/Nosotros";
 import Footer from "./components/Footer";
+import Registro from "./components/Registro";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <Route path= "/productos/" element={<ItemListContainer />} />
           <Route path= "/productos/:categoria" element={<ItemListContainer />} />
           <Route path= "/nosotros" element={<Nosotros />} />
+          <Route path= "/registro" element={<Registro />} />
+
 
 
 
